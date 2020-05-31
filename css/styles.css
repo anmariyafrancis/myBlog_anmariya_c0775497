@@ -287,7 +287,7 @@ aside {
 @media only screen and (min-width: 999px) {
   /* styles for container id */
   #container {
-    background-color: #1d1d1c;
+    background-color: white;
   }
 
   /* styles for header */
@@ -317,35 +317,36 @@ aside {
     margin-right: 0;
     padding: 0;
     width: 20%;
+    color: #0b8609;
   }
 
   /* styles for anchor tag inside nav li */
   nav li a {
     display: inline-block;
     padding: 0.7em;
-    text-shadow: 0.2em 0.1em #3d3d35;
+    
   }
 
   /* styles for pseudo-classes */
   /* when the link is not visited */
   nav li a:link {
-    color: #ffffff;
+    color: #0b8609;
   }
 
   /* when the link is visited */
   nav li a:visited {
-    color: #ccccff;
+    color: #0b8609;
   }
 
   /* pseudo class when hoverin over link */
   nav li a:hover {
     font-style: italic;
-    color: #9d9d93;
+    color: #0b8609;
   }
 
   /* when the links are active */
   nav li a:active {
-    color: #6600cc;
+    color: #0b8609;
   }
 
   /* styles for the main */
