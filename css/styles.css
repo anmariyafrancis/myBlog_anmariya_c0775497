@@ -20,6 +20,12 @@ img {
   margin-right: auto;
 }
 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
 /* styles for the logo in the header div */
 header {
   text-align: center;
@@ -95,12 +101,22 @@ footer {
 .equip {
   display: none;
 }
+.col1{
+  float: left;
+    width: 70%;
+    
+}
+.col2{
+  
+    float: left;
+    width: 30%;
+}
 
 /* styles for anchor tags inside main element */
 main a {
-  background-color: #0b8609;
+  background-color:white;
   border-radius: 1em;
-  color: #ffffff;
+  color: #0b8609;
   font-weight: bold;
   padding: 0.5em;
   text-decoration: none;
@@ -179,6 +195,7 @@ aside {
     display: block;
     float: left;
     margin-right: 1.5em;
+    width: 450px;
   }
 
   /* styles for unordered list (class items) */
@@ -263,7 +280,9 @@ aside {
     padding: 1%;
     text-align: left;
   }
-
+.ma{
+  margin-top: 24px;;
+}
   /* styles for the ul in the article element */
   article ul {
     text-align: left;
@@ -364,6 +383,7 @@ aside {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    text-align: center;
   }
 
   /* styles specifies for item class */
