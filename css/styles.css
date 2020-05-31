@@ -43,16 +43,17 @@ nav ul {
 
 /* styles for the li in nav */
 nav li {
-  background-color: #9d9d93;
+  background-color: #0b8609;
   border-radius: 2em;
   margin: 0.3em;
   padding: 0.4em;
   list-style-type: none;
+
 }
 
 /* styles for the anchor tags that are in nav li */
 nav li a {
-  color:black;
+  color:white;
   text-decoration: none;
 }
 
@@ -97,7 +98,7 @@ footer {
 
 /* styles for anchor tags inside main element */
 main a {
-  background-color: #9d9d93;
+  background-color: #0b8609;
   border-radius: 1em;
   color: #ffffff;
   font-weight: bold;
