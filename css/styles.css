@@ -6,9 +6,6 @@ body {
 }
 
 /* styles to have fluid images */
-img {
-  max-width: 100%;
-}
 
 /* Adopting the mobile-first strategy */
 /* styles for the Mobile Layout */
@@ -198,6 +195,10 @@ aside {
     display: block;
     /* margin-top: -3em; */
     margin-bottom: -1em;
+  }
+  
+  img{
+    width: 100%;
   }
 
   /* styles for the description list terms */
