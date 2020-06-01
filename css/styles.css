@@ -46,7 +46,21 @@ nav ul {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-
+table{
+  width: 70%;
+  text-align: left;
+  font-family: cursive;
+ border:1px solid black;
+ color:#0b8609 ;
+ margin-left: 400px;
+ 
+}
+td{
+  
+  border:1px solid black;
+  text-align: left;
+  color: black;
+}
 /* styles for the li in nav */
 nav li {
   background-color: #0b8609;
@@ -254,7 +268,7 @@ aside {
 
   /* styles for the article elememnt */
   article {
-    background-color: #c1d9ca;
+    background-color: white;
     float: left;
     margin: 0.5%;
     padding: 0.5%;
@@ -264,7 +278,7 @@ aside {
 
   /* styles for the images inside the articles' elements - nutrition page */
   article img {
-    border: solid 0.1em #1d1d1c;
+    border: none;
   }
 
   article div {
